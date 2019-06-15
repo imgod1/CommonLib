@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolbar_bg">#FCFCFC</color>
+    <color name="colorPrimary">#FF1F7D</color>
+    <color name="colorPrimaryDark">#DD0B66</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="theme_color">#FF1F7D</color>
+    <color name="bg_item_pressed_default">#39000005</color>
+    <color name="shape_bg_color">#F2F2F2</color>
+
+    <!--主要字体颜色-->
+    <color name="colorPrimaryText">#333333</color>
+    <!--次要字体颜色-->
+    <color name="colorSecondaryText">#99333333</color>
+    <!--提示字体颜色-->
+    <color name="colorHintText">#4D333333</color>
+    <color name="colorVisibleText">#19333333</color>
+    <color name="colorWhiteHintText">#5CFFFFFF</color>
+
+
+    <color name="color_gray_light">#AAAAAA </color>
+    <!--分割线颜色-->
+    <color name="divider_color">#F2F2F2</color>
+    <color name="theme_color_bg">#0D000000</color>
+    <color name="stroke">#cccccc</color>
+    <!--sheet-->
+    <color name="sheet_bg">#EEEEEE</color>
+</resources>

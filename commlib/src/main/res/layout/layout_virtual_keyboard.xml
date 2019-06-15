@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#e0e0e0"
+    android:layout_height="wrap_content">
+
+    <!-- 输入键盘 -->
+    <GridView
+        android:id="@+id/gv_keybord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/divider_color"
+        android:verticalSpacing="@dimen/dp1"
+        android:soundEffectsEnabled="true"
+        android:horizontalSpacing="@dimen/dp1"
+        android:numColumns="3"/>
+
+
+</LinearLayout>

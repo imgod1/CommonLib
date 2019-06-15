@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="popwin_anim_style">
+        <item name="android:windowEnterAnimation">@anim/anim_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_popup_exit</item>
+    </style>
+    <style name="popwin_right_to_left_style">
+        <item name="android:windowEnterAnimation">@anim/anim_popup_enter_to_left</item>
+        <item name="android:windowExitAnimation">@anim/anim_popup_exit_to_right</item>
+    </style>
+
+
+    <style name="Theme.Light.NoTitle.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+    <style name="Theme.Light.NoTitle.NoShadow.Dialog" parent="Theme.Light.NoTitle.Dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+
+    <style name="bottom_rising" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+
+    <style name="scale_rising" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_scale</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_scale</item>
+    </style>
+    <style name="myDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+    <style name="NumberProgressBar_Relax_Blue_Style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="max">100</item>
+        <item name="progress">0</item>
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">@color/colorPrimary</item>
+        <item name="progress_text_size">@dimen/sp16</item>
+        <item name="progress_text_color">@color/colorPrimary</item>
+        <item name="progress_reached_bar_height">@dimen/dp18</item>
+        <item name="progress_unreached_bar_height">@dimen/dp16</item>
+    </style>
+</resources>

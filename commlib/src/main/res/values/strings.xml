@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">commLib</string>
+    <string name="simple_view_behavior">com.golong.commlib.behavior.SimpleViewBehavior</string>
+    <string name="animation_view_behavior">com.golong.commlib.behavior.AnimationViewBehavior</string>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="@color/transparent">
+
+	<ImageView
+			android:id="@+id/iv_exit"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentEnd="true"
+			android:layout_alignParentRight="true"
+			android:layout_marginEnd="72dp"
+			android:layout_marginRight="72dp"
+			android:layout_marginTop="8dp"
+			android:src="@drawable/ic_update_diloag_exit"
+			app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintTop_toTopOf="@+id/linearLayout"
+			app:layout_constraintVertical_bias="0.83"/>
+
+
+	<LinearLayout
+			android:id="@+id/linearLayout"
+			android:layout_width="@dimen/dp275"
+			android:layout_height="@dimen/dp425"
+			android:layout_marginBottom="8dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			android:background="@drawable/ic_update_diong_bg"
+			android:orientation="vertical"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.502"></LinearLayout>
+
+	<TextView
+			android:id="@+id/tv_version"
+			android:layout_width="196dp"
+			android:layout_height="24dp"
+			android:layout_marginBottom="8dp"
+			android:layout_marginEnd="16dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="16dp"
+			android:layout_marginStart="8dp"
+			android:layout_marginTop="8dp"
+			android:paddingLeft="@dimen/dp15"
+			android:text="V1.1gengxin内容"
+			android:textColor="#333333"
+			android:textSize="@dimen/sp15"
+			android:textStyle="bold"
+			app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"
+			app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+			app:layout_constraintHorizontal_bias="0.0"
+			app:layout_constraintStart_toStartOf="@+id/linearLayout"
+			app:layout_constraintTop_toTopOf="@+id/linearLayout"
+			app:layout_constraintVertical_bias="0.483"/>
+
+
+	<android.support.v4.widget.NestedScrollView
+			android:layout_width="240dp"
+			android:layout_height="39dp"
+			android:layout_marginBottom="8dp"
+			android:layout_marginEnd="16dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="16dp"
+			android:layout_marginStart="8dp"
+			android:layout_weight="1"
+			android:fadeScrollbars="false"
+			android:overScrollMode="ifContentScrolls"
+			android:scrollbars="vertical"
+			app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"
+			app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+			app:layout_constraintStart_toStartOf="@+id/linearLayout">
+
+	</android.support.v4.widget.NestedScrollView>
+
+	<RelativeLayout
+			android:id="@+id/relativeLayout2"
+			android:layout_width="166dp"
+			android:layout_height="40dp"
+			android:layout_marginBottom="24dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginStart="8dp"
+			app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+			app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+			app:layout_constraintHorizontal_bias="0.484"
+			app:layout_constraintStart_toStartOf="@+id/linearLayout">
+
+		<TextView
+				android:id="@+id/tv_update"
+				android:layout_width="258dp"
+				android:layout_height="match_parent"
+				android:background="@drawable/bg_conner_theme_color_selector"
+				android:gravity="center"
+				android:paddingBottom="@dimen/dp12"
+				android:paddingTop="@dimen/dp12"
+				android:text="立即更新"
+				android:textColor="#FFFFFFFF"
+				android:textSize="15sp"
+				android:visibility="visible"/>
+
+		<com.golong.commlib.common.NumberProgressBar
+				android:id="@+id/loading"
+				style="@style/NumberProgressBar_Relax_Blue_Style"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/dp25"
+				android:layout_marginLeft="@dimen/dp25"
+				android:layout_marginRight="@dimen/dp25"
+				android:layout_marginTop="@dimen/dp15"
+				android:visibility="gone"/>
+	</RelativeLayout>
+
+	<TextView
+			android:id="@+id/tv_content"
+			android:layout_width="186dp"
+			android:layout_height="wrap_content"
+			android:gravity="top"
+			android:textColor="#666666"
+			android:textSize="@dimen/sp13"
+			tools:layout_editor_absoluteX="8dp"
+			tools:layout_editor_absoluteY="385dp"
+			tools:text="坎坎坷坷"/>
+</android.support.constraint.ConstraintLayout>

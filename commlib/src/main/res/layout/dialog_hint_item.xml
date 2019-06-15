@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@drawable/bg_pic_save">
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:minHeight="@dimen/dp120"
+			android:orientation="vertical"
+			android:gravity="center">
+
+		<TextView
+				android:id="@+id/tv_title"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="提示"
+				android:textStyle="bold"
+				android:gravity="center_horizontal"
+				android:textSize="16sp"
+				android:textColor="@color/black"/>
+
+		<TextView
+				android:id="@+id/tv_content"
+				android:layout_marginTop="@dimen/dp15"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="请填写完所有考核项目"
+				android:textSize="14sp"
+				android:paddingRight="@dimen/dp20"
+				android:paddingLeft="@dimen/dp20"
+				android:gravity="center"
+				android:textColor="#333333"/>
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/dp50"
+			android:orientation="horizontal"
+			android:background="@drawable/bg_pic_save_down_shape">
+
+
+		<TextView
+				android:id="@+id/tv_cancel"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="@drawable/bg_selector_default"
+				android:clickable="true"
+				android:gravity="center"
+				android:text="否"
+				android:textColor="#666666"
+				android:textSize="16sp"/>
+
+		<View
+				android:id="@+id/view"
+				android:layout_width="1px"
+				android:layout_height="match_parent"
+				android:background="#d8d8d8"/>
+
+		<TextView
+
+				android:id="@+id/tv_sure"
+				android:layout_width="0dp"
+				android:background="@drawable/bg_selector_default"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:clickable="true"
+				android:gravity="center"
+				android:text="是"
+				android:visibility="visible"
+				android:textColor="@color/colorPrimary"
+				android:textSize="16sp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
