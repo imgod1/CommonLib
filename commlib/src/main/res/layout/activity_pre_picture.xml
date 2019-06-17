@@ -4,12 +4,12 @@
     android:layout_height="match_parent"
     android:background="@android:color/transparent">
 
-    <com.golong.commlib.common.TryViewpager
+    <com.imgod1.commlib.common.TryViewpager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@android:color/transparent">
-    </com.golong.commlib.common.TryViewpager>
+    </com.imgod1.commlib.common.TryViewpager>
 
 
     <LinearLayout

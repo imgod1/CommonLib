@@ -6,12 +6,12 @@
     android:fitsSystemWindows="true"
     android:layout_height="match_parent">
     <include layout="@layout/top_comm_title"/>
-    <com.golong.commlib.common.WebViewTopLoading
+    <com.imgod1.commlib.common.WebViewTopLoading
         android:id="@+id/mTopProgress"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp2"
         />
-    <com.golong.commlib.observablewebview.ObservableWebView
+    <com.imgod1.commlib.observablewebview.ObservableWebView
         android:id="@+id/webview1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

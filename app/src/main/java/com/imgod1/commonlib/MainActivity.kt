@@ -2,7 +2,7 @@ package com.imgod1.commonlib
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import com.golong.commlib.base.BaseResponse
+import com.imgod1.commlib.base.BaseResponse
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), MainContract.View {

@@ -1,9 +1,9 @@
 package com.imgod1.commonlib.presenter
 
 import android.content.Context
-import com.golong.commlib.base.BasePresenter
-import com.golong.commlib.base.BaseView
-import com.golong.commlib.net.NetClient
+import com.imgod1.commlib.base.BasePresenter
+import com.imgod1.commlib.base.BaseView
+import com.imgod1.commlib.net.NetClient
 
 /**
  * @author Andy

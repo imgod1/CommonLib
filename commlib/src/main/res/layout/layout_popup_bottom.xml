@@ -285,7 +285,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp1"
             android:background="@color/divider_color"/>
-    <com.golong.commlib.payview.VirtualKeyboardView
+    <com.imgod1.commlib.payview.VirtualKeyboardView
         android:id="@+id/virtualKeyboardView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

@@ -108,7 +108,7 @@
 				android:textSize="15sp"
 				android:visibility="visible"/>
 
-		<com.golong.commlib.common.NumberProgressBar
+		<com.imgod1.commlib.common.NumberProgressBar
 				android:id="@+id/loading"
 				style="@style/NumberProgressBar_Relax_Blue_Style"
 				android:layout_width="match_parent"

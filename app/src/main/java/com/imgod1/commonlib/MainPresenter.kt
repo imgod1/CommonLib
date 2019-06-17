@@ -1,9 +1,9 @@
 package com.imgod1.commonlib
 
 import android.content.Context
-import com.golong.commlib.base.BaseRequest
-import com.golong.commlib.base.BaseResponse
-import com.golong.commlib.net.SuccessConsumer
+import com.imgod1.commlib.base.BaseRequest
+import com.imgod1.commlib.base.BaseResponse
+import com.imgod1.commlib.net.SuccessConsumer
 import com.imgod1.commonlib.presenter.PresenterWrapper
 import io.reactivex.functions.Consumer
 

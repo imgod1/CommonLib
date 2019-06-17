@@ -1,8 +1,8 @@
 package com.imgod1.commonlib
 
-import com.golong.commlib.base.BaseResponse
-import com.golong.commlib.base.BaseView
-import com.golong.commlib.base.IClear
+import com.imgod1.commlib.base.BaseResponse
+import com.imgod1.commlib.base.BaseView
+import com.imgod1.commlib.base.IClear
 
 interface MainContract {
 
