@@ -38,11 +38,11 @@ public abstract class SuccessConsumer<T> implements Consumer<T> {
                     }
                     break;
                 case ResponseCode.ARGUMENT_ERROR:
-                    return;
+                    break;
                 case ResponseCode.SIGNATURE_ERROR:
-                    return;
+                    break;
                 case ResponseCode.TIME_ERROR:
-                    return;
+                    break;
                 default:
             }
             mBaseView.onError(code, msg);
