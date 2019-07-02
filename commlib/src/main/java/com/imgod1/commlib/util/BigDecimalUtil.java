@@ -4,10 +4,14 @@ import java.math.BigDecimal;
 import java.text.DecimalFormat;
 
 /**
- * @author Andy
- * @date 2019/3/25 15:48
- * @link {http://blog.csdn.net/andy_l1}
- * Desc:    BigDecimalUtil.java
+ * BigDecimalUtil.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:46
+ * @update gaokang 2019/7/2 16:46
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class BigDecimalUtil {
     private static final int DEF_DIV_SCALE = 10;

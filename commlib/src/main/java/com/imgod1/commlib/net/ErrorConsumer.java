@@ -1,12 +1,13 @@
 package com.imgod1.commlib.net;
 
-import com.imgod1.commlib.base.BaseView;
-import com.google.gson.JsonSerializer;
 import com.google.gson.JsonParseException;
+import com.google.gson.JsonSerializer;
+import com.imgod1.commlib.base.BaseView;
 import com.imgod1.commlib.common.ServerConfig;
-
+import io.reactivex.functions.Consumer;
 import org.apache.http.conn.ConnectTimeoutException;
 import org.json.JSONException;
+import retrofit2.HttpException;
 
 import java.io.NotSerializableException;
 import java.net.ConnectException;
@@ -14,13 +15,15 @@ import java.net.SocketTimeoutException;
 import java.net.UnknownHostException;
 import java.text.ParseException;
 
-import io.reactivex.functions.Consumer;
-import retrofit2.HttpException;
-
 /**
- * @author Andy
- * @date 2018/7/4 14:07
- * Desc:    网络请求错误
+ * ErrorConsumer.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:41
+ * @update gaokang 2019/7/2 16:41
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public class ErrorConsumer implements Consumer<Throwable> {

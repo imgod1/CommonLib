@@ -5,7 +5,16 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.SystemClock;
 import android.util.Log;
-
+/**
+ * MyCountDownTimer.java
+ * 修复系统里面的CountDownTimer 有延迟的问题
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:31
+ * @update gaokang 2019/7/2 16:31
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
+ */
 public abstract class MyCountDownTimer {
     
     /**

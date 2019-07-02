@@ -8,10 +8,14 @@ import org.greenrobot.eventbus.EventBus;
 import io.reactivex.functions.Consumer;
 
 /**
- * @author Andy
- * @date 2019/3/25 15:16
- * @link {http://blog.csdn.net/andy_l1}
- * Desc:    ResultConsumer.java
+ * ResultConsumer.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:41
+ * @update gaokang 2019/7/2 16:41
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public abstract class ResultConsumer<T> implements Consumer<T> {

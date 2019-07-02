@@ -5,10 +5,14 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 
 /**
- * @author Andy
- * @date   2019/3/25 16:03
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    ScalePageTransformer.java
+ * ScalePageTransformer.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:54
+ * @update gaokang 2019/7/2 16:54
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class ScalePageTransformer implements ViewPager.PageTransformer {
 

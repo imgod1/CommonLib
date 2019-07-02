@@ -7,10 +7,14 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
 /**
- * @author Andy
- * @date   2019/3/25 15:51
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    KeyBoardUtil.java
+ * KeyBoardUtil.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:51
+ * @update gaokang 2019/7/2 16:51
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class KeyBoardUtil {
     /**

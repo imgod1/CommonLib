@@ -24,10 +24,14 @@ import java.io.File;
 import java.util.List;
 
 /**
- * @author Andy
- * @date   2019/4/23 15:09
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    DownloadUtils.java
+ * DownloadUtils.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:37
+ * @update gaokang 2019/7/2 16:37
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class DownloadUtils {
 

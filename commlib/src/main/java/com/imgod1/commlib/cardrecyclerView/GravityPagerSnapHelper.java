@@ -8,7 +8,16 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.PagerSnapHelper;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-
+/**
+ * GravityPagerSnapHelper.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:29
+ * @update gaokang 2019/7/2 16:29
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
+ */
 public class GravityPagerSnapHelper extends PagerSnapHelper {
 
     @NonNull

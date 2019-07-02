@@ -3,19 +3,22 @@ package com.imgod1.commlib.net;
 import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;
 import com.google.gson.reflect.TypeToken;
-
-import java.lang.annotation.Annotation;
-import java.lang.reflect.Type;
-
 import okhttp3.RequestBody;
 import okhttp3.ResponseBody;
 import retrofit2.Converter;
 import retrofit2.Retrofit;
+
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Type;
 /**
- * @author Andy
- * @date   2019/3/25 14:14
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    MyGsonConverterFactory.java
+ * MyGsonConverterFactory.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:41
+ * @update gaokang 2019/7/2 16:41
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public final class MyGsonConverterFactory extends Converter.Factory {
     /**

@@ -2,9 +2,14 @@ package com.imgod1.commlib.net;
 import io.reactivex.functions.Consumer;
 
 /**
- * @author Andy
- * @date 2019/3/26 12:00
- * Desc:
+ * CommConsumer.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:41
+ * @update gaokang 2019/7/2 16:41
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public abstract class CommConsumer<T> implements Consumer<T> {
 

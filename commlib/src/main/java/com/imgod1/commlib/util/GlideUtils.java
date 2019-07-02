@@ -21,10 +21,14 @@ import com.imgod1.commlib.common.GlideApp;
 import com.imgod1.commlib.interf.OnSusseccListener;
 
 /**
- * @author Andy
- * @date 2018/8/22 15:40
- * @link {http://blog.csdn.net/andy_l1}
- * Desc:    GlideUtil.java
+ * GlideUtils.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:46
+ * @update gaokang 2019/7/2 16:46
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public class GlideUtils {

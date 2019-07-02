@@ -3,22 +3,25 @@ package com.imgod1.commlib.net;
 import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonWriter;
+import okhttp3.MediaType;
+import okhttp3.RequestBody;
+import okio.Buffer;
+import retrofit2.Converter;
 
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.nio.charset.Charset;
 
-import okhttp3.MediaType;
-import okhttp3.RequestBody;
-import okio.Buffer;
-import retrofit2.Converter;
-
 /**
- * @author Andy
- * @date   2019/3/25 14:15
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    MyGsonRequestBodyConverter.java
+ * MyGsonRequestBodyConverter.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:38
+ * @update gaokang 2019/7/2 16:38
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 final class MyGsonRequestBodyConverter<T> implements Converter<T, RequestBody> {
     private static final MediaType MEDIA_TYPE = MediaType.parse("application/json; charset=UTF-8");

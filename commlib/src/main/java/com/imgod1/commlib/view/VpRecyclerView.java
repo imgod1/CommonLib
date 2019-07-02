@@ -8,9 +8,14 @@ import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 
 /**
- * @author Andy
- * @date 2018/9/14 15:00
- * Desc:
+ * VpRecyclerView.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:55
+ * @update gaokang 2019/7/2 16:55
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class VpRecyclerView extends RecyclerView {
 

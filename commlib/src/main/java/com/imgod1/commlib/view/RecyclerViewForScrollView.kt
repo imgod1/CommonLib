@@ -6,9 +6,12 @@ import android.util.AttributeSet
 import android.view.View
 
 /**
- * @author Andy
- * @date   2018/12/10 9:13
- * Desc:
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:54
+ * @update gaokang 2019/7/2 16:54
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 class RecyclerViewForScrollView: RecyclerView{
 

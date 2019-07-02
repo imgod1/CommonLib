@@ -7,9 +7,14 @@ import android.view.ViewConfiguration;
 import android.widget.ScrollView;
 
 /**
- * @author Andy
- * @date   2018/9/14 12:58
- * Desc:   scrollview 的事件拦截优化
+ * ObservableScrollView.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:55
+ * @update gaokang 2019/7/2 16:55
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public class ObservableScrollView extends ScrollView {

@@ -8,9 +8,14 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 
 /**
- * @author Andy
- * @date 2019/5/16 18:19
- * Desc:
+ * TryViewpager.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:36
+ * @update gaokang 2019/7/2 16:36
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class TryViewpager extends ViewPager {
     public TryViewpager(@NonNull Context context) {

@@ -8,7 +8,7 @@ import android.os.VibrationEffect;
 import android.os.Vibrator;
 
 /**
- * @author Andy
+ * @author gaokang
  * @date   2018/12/5 16:57
  * Desc:    震动工具类
  */

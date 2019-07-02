@@ -18,10 +18,14 @@ import com.imgod1.commlib.common.XLog;
 import uk.co.senab.photoview.PhotoViewAttacher;
 
 /**
- * @author Andy
- * @date   2018/5/24 15:49
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    单个图片预览fragment
+ * PrePictureFragment.java
+ * 图片预览fragment
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:43
+ * @update gaokang 2019/7/2 16:43
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public class PrePictureFragment extends Fragment {

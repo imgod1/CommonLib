@@ -15,10 +15,14 @@ import com.bumptech.glide.request.transition.Transition;
 import com.imgod1.commlib.R;
 
 /**
- * @author Andy
- * @date 2018/5/24 15:47
- * @link {http://blog.csdn.net/andy_l1}
- * Desc:   配置加载图片glide
+ * GlideLoader.java
+ * 图片加载
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:42
+ * @update gaokang 2019/7/2 16:42
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class GlideLoader implements IZoomMediaLoader {
 

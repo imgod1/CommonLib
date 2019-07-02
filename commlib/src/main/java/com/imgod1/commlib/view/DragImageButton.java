@@ -11,11 +11,15 @@ import com.imgod1.commlib.R;
 import com.imgod1.commlib.util.ScreenUtil;
 
 /**
- * @author Andy
- * @date 2019/6/3 16:39
- * Desc:
- */
-public class DragImageButton extends AppCompatImageButton {
+ * DragImageButton.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:55
+ * @update gaokang 2019/7/2 16:55
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
+ */public class DragImageButton extends AppCompatImageButton {
 
     private float mLastRawX;
     private float mLastRawY;

@@ -8,10 +8,14 @@ import java.lang.reflect.Method;
 import java.util.Map;
 
 /**
- * @author Andy
- * @date   2019/4/29 11:53
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    SPUtil.java
+ * SPUtil.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:51
+ * @update gaokang 2019/7/2 16:51
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class SPUtil {
 

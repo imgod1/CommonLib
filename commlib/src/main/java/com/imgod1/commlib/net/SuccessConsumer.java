@@ -8,8 +8,14 @@ import org.greenrobot.eventbus.EventBus;
 import io.reactivex.functions.Consumer;
 
 /**
- * Created by Snow on 2017/4/7.
- * Description:
+ * SuccessConsumer.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:42
+ * @update gaokang 2019/7/2 16:42
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public abstract class SuccessConsumer<T> implements Consumer<T> {

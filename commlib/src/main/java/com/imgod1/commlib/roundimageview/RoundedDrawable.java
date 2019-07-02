@@ -24,10 +24,14 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author Andy
- * @date   2019/3/25 15:46
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    RoundedDrawable.java
+ * RoundedDrawable.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:45
+ * @update gaokang 2019/7/2 16:45
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 @SuppressWarnings("UnusedDeclaration")
 public class RoundedDrawable extends Drawable {

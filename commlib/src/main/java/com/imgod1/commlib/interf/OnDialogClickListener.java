@@ -1,10 +1,14 @@
 package com.imgod1.commlib.interf;
 
 /**
- * @author Andy
- * @date   2019/4/2 17:55
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    OnDialogClickListener.java
+ * OnDialogClickListener.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:40
+ * @update gaokang 2019/7/2 16:40
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public interface OnDialogClickListener {

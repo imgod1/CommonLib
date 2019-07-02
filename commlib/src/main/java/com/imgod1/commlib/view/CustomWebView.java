@@ -11,11 +11,14 @@ import com.tencent.smtt.sdk.WebView;
 import com.tencent.smtt.sdk.WebViewClient;
 
 /**
- * @author Andy
- * @date   2019/3/25 16:04
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    CustomWebView.java
+ * CustomWebView.java
  *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:54
+ * @update gaokang 2019/7/2 16:54
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public class CustomWebView extends WebView {

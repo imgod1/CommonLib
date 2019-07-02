@@ -32,10 +32,14 @@ import android.util.Log;
 import java.util.UUID;
 
 /**
- * @author Andy
- * @date   2019/3/25 15:48
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    AppUtil.java
+ * AppUtil.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:46
+ * @update gaokang 2019/7/2 16:46
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class AppUtil {
 

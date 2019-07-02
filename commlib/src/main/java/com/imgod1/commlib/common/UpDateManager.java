@@ -6,9 +6,14 @@ import android.os.Environment;
 import com.imgod1.commlib.view.UpdateDialog;
 
 /**
- * @author Andy
- * @date 2018/6/27 13:29
- * Desc:    项目更新管理
+ * UpDateManager.java
+ * 更新管理
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:35
+ * @update gaokang 2019/7/2 16:35
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class UpDateManager {
 

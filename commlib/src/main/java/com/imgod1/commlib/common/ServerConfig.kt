@@ -1,9 +1,12 @@
 package com.imgod1.commlib.common
 
 /**
- * @author Andy
- * @date   2018/7/3 13:11
- * Desc:    配置线上线下环境
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:34
+ * @update gaokang 2019/7/2 16:34
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 object ServerConfig {
 

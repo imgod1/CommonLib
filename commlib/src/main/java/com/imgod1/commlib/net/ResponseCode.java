@@ -1,10 +1,14 @@
 package com.imgod1.commlib.net;
 
 /**
- * @author Andy
- * @date   2019/3/25 14:15
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    ResponseCode.java
+ * ResponseCode.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:41
+ * @update gaokang 2019/7/2 16:41
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public interface ResponseCode {
     String SUCCESS = "0";

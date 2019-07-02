@@ -9,7 +9,7 @@ import android.view.MotionEvent
 import android.view.ViewConfiguration
 
 /**
- * @author Andy
+ * @author gaokang
  * @date 2018/11/20 15:10
  * Desc: 纵向优先滑动的rv
  */

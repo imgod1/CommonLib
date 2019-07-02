@@ -5,10 +5,14 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * @author Andy
- * @date   2018/5/24 15:48
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    图片信息
+ * ImgInfo.java
+ * 图片信息
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:42
+ * @update gaokang 2019/7/2 16:42
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public class ImgInfo implements Parcelable{

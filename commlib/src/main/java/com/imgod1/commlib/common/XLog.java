@@ -10,7 +10,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * @author Andy
+ * @author gaokang
  * @date 2018/7/9 16:40
  * Desc:    XLog.java
  * 使用时建议用当前类名当做tag,方便在控制台定位打日志的位置,在有生命周期的类中初始化阶段,

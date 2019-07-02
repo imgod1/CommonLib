@@ -19,8 +19,9 @@ public class IntentUtil {
         context.startActivity(intent);
     }
 
-    public static void openQQ(Context context) {
-//        context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Const.QQ_URL)));
+    public static void openQQ(Context context, String qq) {
+        String url = "mqqwpa://im/chat?chat_type=wpa&version=1&uin=" + qq;
+        context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
     }
 
     public static void openUrl(Context context, String url) {

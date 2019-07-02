@@ -20,10 +20,14 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * @author Andy
- * @date   2019/3/25 15:49
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    CommonUtils.java
+ * CommonUtils.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:46
+ * @update gaokang 2019/7/2 16:46
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public class CommonUtils {

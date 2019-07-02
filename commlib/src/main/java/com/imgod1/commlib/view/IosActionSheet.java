@@ -20,7 +20,7 @@ import java.util.List;
 
 
 /**
- * @author Andy
+ * @author gaokang
  * @date   2018/9/19 9:31
  * @link   {http://blog.csdn.net/andy_l1}
  * Desc:    仿ios底部弹窗

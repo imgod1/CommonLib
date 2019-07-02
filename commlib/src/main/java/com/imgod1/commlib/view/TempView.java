@@ -12,10 +12,14 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * @author Andy
- * @date 2018/9/30 11:06
- * @link {http://blog.csdn.net/andy_l1}
- * Desc:    自定义温度指示条
+ * TempView.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:55
+ * @update gaokang 2019/7/2 16:55
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class TempView extends View {
 

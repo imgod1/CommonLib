@@ -5,12 +5,15 @@ import okhttp3.MediaType;
 import okhttp3.RequestBody;
 
 /**
- * @author Andy
- * @date   2019/3/25 14:03
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    PatchRequest.java
+ * PatchRequest.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:25
+ * @update gaokang 2019/7/2 16:25
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
-
 public class PatchRequest {
 
     private MapParamsRequest request;

@@ -1,9 +1,14 @@
 package com.imgod1.commlib.user;
 
 /**
- * @author Andy
- * @date 2019/4/12 15:10
- * Desc:
+ * PersonBanner.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:45
+ * @update gaokang 2019/7/2 16:45
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class PersonBanner {
 

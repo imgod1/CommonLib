@@ -10,9 +10,14 @@ import com.bumptech.glide.module.AppGlideModule;
 import com.bumptech.glide.request.RequestOptions;
 
 /**
- * @author Andy
- * @date 2018/8/27 13:32
- * Desc:
+ * GlideMoudel.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:31
+ * @update gaokang 2019/7/2 16:31
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 @GlideModule

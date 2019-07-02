@@ -13,10 +13,14 @@ import android.widget.TextView;
 import com.imgod1.commlib.R;
 
 /**
- * @author Andy
- * @date   2019/3/25 14:05
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    MainBottomBarItemView.java
+ * MainBottomBarItemView.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:27
+ * @update gaokang 2019/7/2 16:27
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class MainBottomBarItemView extends FrameLayout {
 

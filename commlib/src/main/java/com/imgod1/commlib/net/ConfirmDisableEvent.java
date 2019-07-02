@@ -1,10 +1,14 @@
 package com.imgod1.commlib.net;
 
 /**
- * @author Andy
- * @date   2019/3/25 14:14
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    ConfirmDisableEvent.java
+ * ConfirmDisableEvent.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:41
+ * @update gaokang 2019/7/2 16:41
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class ConfirmDisableEvent {
     public String msg;

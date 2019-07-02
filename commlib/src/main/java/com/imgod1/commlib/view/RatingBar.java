@@ -13,10 +13,14 @@ import com.imgod1.commlib.R;
 import java.math.BigDecimal;
 
 /**
- * @author Andy
- * @date   2019/3/25 16:05
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    RatingBar.java
+ * RatingBar.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:54
+ * @update gaokang 2019/7/2 16:54
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class RatingBar extends LinearLayout {
     private boolean mClickable;

@@ -16,9 +16,14 @@ import android.view.Gravity;
 import com.imgod1.commlib.R;
 
 /**
- * @author Andy
- * @date 2019/5/27 17:06
- * Desc:
+ * TagTextView.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:55
+ * @update gaokang 2019/7/2 16:55
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class TagTextView extends AppCompatTextView {
     private boolean isShow;

@@ -15,9 +15,14 @@ import com.imgod1.commlib.common.NumberProgressBar;
 import com.imgod1.commlib.util.SPUtil;
 
 /**
- * @author Andy
- * @date 2018/9/20 14:40
- * Desc: 应用更新弹窗
+ * UpdateDialog.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:55
+ * @update gaokang 2019/7/2 16:55
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class UpdateDialog extends Dialog {
 

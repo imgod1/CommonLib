@@ -1,10 +1,14 @@
 package com.imgod1.commlib.preview;
 
 /**
- * @author Andy
- * @date   2018/5/24 15:48
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    图片加载管理器
+ * ZoomMediaLoader.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:44
+ * @update gaokang 2019/7/2 16:44
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public class ZoomMediaLoader {

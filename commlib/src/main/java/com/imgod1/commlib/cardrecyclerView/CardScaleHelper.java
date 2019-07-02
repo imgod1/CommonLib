@@ -7,10 +7,14 @@ import android.view.View;
 import com.imgod1.commlib.util.ScreenUtil;
 
 /**
- * @author Andy
- * @date   2018/8/29 13:11
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    CardScaleHelper.java
+ * CardScaleHelper.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:28
+ * @update gaokang 2019/7/2 16:28
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class CardScaleHelper {
     private RecyclerView mRecyclerView;

@@ -25,9 +25,12 @@ import kotlinx.android.synthetic.main.layout_web_view.*
 import kotlinx.android.synthetic.main.top_comm_title.*
 
 /**
- * @author Andy
- * @date   2019/5/19 10:07
- * Desc:
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:25
+ * @update gaokang 2019/7/2 16:25
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 class WebViewActivity : AppCompatActivity(), ObservableScrollViewCallbacks {
     private var isContinue = false

@@ -13,7 +13,16 @@ import android.view.Gravity;
 import android.view.View;
 
 import java.util.Locale;
-
+/**
+ * GravityDelegate.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:26
+ * @update gaokang 2019/7/2 16:26
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
+ */
 class GravityDelegate {
 
     private OrientationHelper verticalHelper;

@@ -12,9 +12,14 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * @author Andy
- * @date 2018/5/20 0:33
- * Desc:
+ * Base64Util.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:46
+ * @update gaokang 2019/7/2 16:46
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class Base64Util {
 

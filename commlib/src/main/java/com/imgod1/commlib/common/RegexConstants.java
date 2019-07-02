@@ -1,10 +1,14 @@
 package com.imgod1.commlib.common;
 
 /**
- * @author Andy
- * @date   2018/7/27 13:10
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    RegexConstants.java
+ * RegexConstants.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:32
+ * @update gaokang 2019/7/2 16:32
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public final class RegexConstants {
 
@@ -20,7 +24,7 @@ public final class RegexConstants {
      * <p>全球星：1349</p>
      * <p>虚拟运营商：170</p>
      */
-    public static final String REGEX_MOBILE_EXACT  = "^((13[0-9])|(14[5,7])|(15[0-3,5-9])|(17[0,1,3,5-8])|(18[0-9])|(147))\\d{8}$";
+    public static final String REGEX_MOBILE_EXACT  = "^((13[0-9])|(14[5,7])|(15[0-3,5-9])|(16[0-3,5-9])|(17[0,1,3,5-8])|(18[0-9])|(19[0-9])|(147))\\d{8}$";
     /**
      * 正则：电话号码
      */

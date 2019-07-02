@@ -5,15 +5,16 @@ import com.imgod1.commlib.common.ServerConfig
 import com.imgod1.commlib.encrypt.base.TextUtils
 import com.imgod1.commlib.encrypt.oneway.SHAUtil
 import com.imgod1.commlib.util.AppUtil
-
 import java.util.*
-import kotlin.collections.LinkedHashMap
 
 /**
- * @author Andy
- * @date   2019/3/25 14:03
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    MapParamsRequest.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:24
+ * @update gaokang 2019/7/2 16:24
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
  abstract class MapParamsRequest {
     @JvmField

@@ -16,10 +16,14 @@ import io.reactivex.schedulers.Schedulers;
 
 
 /**
- * @author Andy
- * @date   2019/3/25 14:01
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    BasePresenter.java
+ * BasePresenter.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:23
+ * @update gaokang 2019/7/2 16:23
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public class BasePresenter<V extends BaseView> implements IClear {

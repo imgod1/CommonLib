@@ -26,10 +26,14 @@ import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 
 /**
- * @author Andy
- * @date   2019/4/12 20:29
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    ImageUtil.java
+ * ImageUtil.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:51
+ * @update gaokang 2019/7/2 16:51
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public class ImageUtil {

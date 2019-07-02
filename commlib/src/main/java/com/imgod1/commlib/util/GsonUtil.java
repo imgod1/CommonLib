@@ -10,10 +10,14 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 /**
- * @author Andy
- * @date   2019/4/1 10:39
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    GsonUtil.java
+ * GsonUtil.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:50
+ * @update gaokang 2019/7/2 16:50
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class GsonUtil {
 

@@ -10,9 +10,14 @@ import com.imgod1.commlib.R;
 import com.imgod1.commlib.util.ScreenUtil;
 
 /**
- * @author Andy
- * @date 2018/11/28 15:06
- * Desc: 限定最大高度的控件
+ * AndyFrameLayout.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:54
+ * @update gaokang 2019/7/2 16:54
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class AndyFrameLayout extends FrameLayout {
 

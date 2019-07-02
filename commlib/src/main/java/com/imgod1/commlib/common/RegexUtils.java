@@ -6,9 +6,14 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author Andy
- * @date   2018/7/27 13:03
- * Desc:    RegexUtils.java
+ * RegexUtils.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:34
+ * @update gaokang 2019/7/2 16:34
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public final class RegexUtils {
 

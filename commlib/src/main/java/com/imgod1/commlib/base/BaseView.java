@@ -2,10 +2,14 @@ package com.imgod1.commlib.base;
 
 
 /**
- * @author Andy
- * @date   2019/3/25 14:02
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    BaseView.java
+ * BaseView.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:24
+ * @update gaokang 2019/7/2 16:24
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public interface BaseView {
     void showLoading();

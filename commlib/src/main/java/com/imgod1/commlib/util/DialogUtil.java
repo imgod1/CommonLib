@@ -7,10 +7,14 @@ import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
 
 /**
- * @author Andy
- * @date   2019/3/25 15:50
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    DialogUtil.java
+ * DialogUtil.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:50
+ * @update gaokang 2019/7/2 16:50
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class DialogUtil {
     private DialogUtil() {

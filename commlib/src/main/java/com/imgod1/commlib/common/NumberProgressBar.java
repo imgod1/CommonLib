@@ -13,10 +13,14 @@ import android.view.View;
 import com.imgod1.commlib.R;
 
 /**
- * @author Andy
- * @date   2018/6/27 12:00
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    自定义更新progress
+ * NumberProgressBar.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:32
+ * @update gaokang 2019/7/2 16:32
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class NumberProgressBar extends View {
 

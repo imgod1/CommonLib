@@ -13,10 +13,14 @@ import com.imgod1.commlib.R;
 import com.imgod1.commlib.util.ScreenUtil;
 
 /**
- * @author Andy
- * @date   2018/11/30 16:25
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    自定义webview头部加载进度条
+ * WebViewTopLoading.java
+ * webview顶部加载
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:35
+ * @update gaokang 2019/7/2 16:35
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class WebViewTopLoading extends View {
 

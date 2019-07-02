@@ -11,10 +11,14 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * @author Andy
- * @date   2019/3/25 14:16
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    ResponseDecoder.java
+ * ResponseDecoder.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:41
+ * @update gaokang 2019/7/2 16:41
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public class ResponseDecoder {

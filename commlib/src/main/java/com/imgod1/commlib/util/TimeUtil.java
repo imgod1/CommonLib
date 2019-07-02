@@ -6,10 +6,14 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- * @author Andy
- * @date 2019/3/25 15:52
- * @link {http://blog.csdn.net/andy_l1}
- * Desc:    TimeUtil.java
+ * TimeUtil.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:53
+ * @update gaokang 2019/7/2 16:53
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public class TimeUtil {

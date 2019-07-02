@@ -22,10 +22,14 @@ import java.util.HashSet;
 
 
 /**
- * @author Andy
- * @date   2018/5/21 10:25
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    ImgUtil.java
+ * ImgUtil.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:34
+ * @update gaokang 2019/7/2 16:34
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 @TargetApi(Build.VERSION_CODES.GINGERBREAD_MR1)
 public class ImgUtil {

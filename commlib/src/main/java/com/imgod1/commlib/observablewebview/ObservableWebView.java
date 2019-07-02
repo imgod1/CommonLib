@@ -19,10 +19,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Andy
- * @date   2019/4/12 15:43
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    ObservableWebView.java
+ * ObservableWebView.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:42
+ * @update gaokang 2019/7/2 16:42
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class ObservableWebView extends WebView implements Scrollable {
 

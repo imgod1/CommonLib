@@ -25,10 +25,14 @@ import java.util.List;
 import java.util.Locale;
 
 /**
- * @author Andy
- * @date   2018/5/24 15:49
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    图片预览界面
+ * PrePictureActivity.java
+ * 图片预览界面
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:43
+ * @update gaokang 2019/7/2 16:43
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public class PrePictureActivity extends FragmentActivity {

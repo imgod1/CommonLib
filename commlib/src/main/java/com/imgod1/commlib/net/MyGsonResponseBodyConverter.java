@@ -10,10 +10,14 @@ import java.io.IOException;
 import java.lang.reflect.Type;
 
 /**
- * @author Andy
- * @date   2019/3/25 14:15
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    MyGsonResponseBodyConverter.java
+ * MyGsonResponseBodyConverter.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:39
+ * @update gaokang 2019/7/2 16:39
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 final class MyGsonResponseBodyConverter<T> implements Converter<ResponseBody, T> {
 

@@ -23,7 +23,16 @@ import android.support.v7.widget.LinearSnapHelper;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-
+/**
+ * GravitySnapHelper.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:26
+ * @update gaokang 2019/7/2 16:26
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
+ */
 public class GravitySnapHelper extends LinearSnapHelper {
 
     @NonNull

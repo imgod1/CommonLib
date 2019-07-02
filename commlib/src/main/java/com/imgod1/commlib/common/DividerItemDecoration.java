@@ -12,9 +12,14 @@ import com.imgod1.commlib.R;
 import com.imgod1.commlib.util.ScreenUtil;
 
 /**
- * @author Andy
- * @date 2018/11/23 9:52
- * Desc:
+ * DividerItemDecoration.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:28
+ * @update gaokang 2019/7/2 16:28
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class DividerItemDecoration extends RecyclerView.ItemDecoration {
 

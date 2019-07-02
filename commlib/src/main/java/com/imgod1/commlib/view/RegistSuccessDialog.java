@@ -13,9 +13,14 @@ import android.widget.LinearLayout;
 import com.imgod1.commlib.R;
 
 /**
- * @author Andy
- * @date 2018/10/12 15:47
- * Desc: 注册成功提货券弹窗
+ * RegistSuccessDialog.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:54
+ * @update gaokang 2019/7/2 16:54
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class RegistSuccessDialog extends Dialog {
     private RegistSuccessDialog(@NonNull Context context, int themeResId) {

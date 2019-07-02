@@ -14,10 +14,14 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author Andy
- * @date   2019/3/25 15:52
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    StringUtil.java
+ * StringUtil.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:52
+ * @update gaokang 2019/7/2 16:52
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public class StringUtil {

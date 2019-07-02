@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 /**
- * @author Andy
+ * @author gaokang
  * @date   2019/3/25 16:06
  * @link   {http://blog.csdn.net/andy_l1}
  * Desc:    VpSwipeRefreshLayout.java

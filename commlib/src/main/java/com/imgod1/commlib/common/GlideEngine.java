@@ -10,9 +10,14 @@ import com.bumptech.glide.request.RequestOptions;
 import com.zhihu.matisse.engine.ImageEngine;
 
 /**
- * @author Andy
- * @date 2019/4/12 19:39
- * Desc:
+ * GlideEngine.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:28
+ * @update gaokang 2019/7/2 16:28
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class GlideEngine implements ImageEngine {
 

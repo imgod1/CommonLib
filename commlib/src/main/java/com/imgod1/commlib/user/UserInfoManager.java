@@ -7,10 +7,14 @@ import com.imgod1.commlib.util.GsonUtil;
 import com.imgod1.commlib.util.SPUtil;
 
 /**
- * @author Andy
- * @date   2019/3/25 15:47
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    UserInfoManager.java
+ * UserInfoManager.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:45
+ * @update gaokang 2019/7/2 16:45
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class UserInfoManager {
     private Context mContext;

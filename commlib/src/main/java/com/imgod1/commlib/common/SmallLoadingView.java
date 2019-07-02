@@ -9,10 +9,14 @@ import com.imgod1.commlib.R;
 import java.util.Objects;
 
 /**
- * @author Andy
- * @date   2018/5/15 20:25
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    LoadingView.java
+ * SmallLoadingView.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:36
+ * @update gaokang 2019/7/2 16:36
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 
 public class SmallLoadingView extends Dialog {

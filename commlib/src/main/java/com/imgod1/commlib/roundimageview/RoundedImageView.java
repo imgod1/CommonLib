@@ -20,10 +20,14 @@ import android.widget.ImageView;
 import com.imgod1.commlib.R;
 
 /**
- * @author Andy
- * @date   2019/3/25 15:46
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    RoundedImageView.java
+ * RoundedImageView.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:45
+ * @update gaokang 2019/7/2 16:45
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 @SuppressLint("AppCompatCustomView")
 @SuppressWarnings("UnusedDeclaration")

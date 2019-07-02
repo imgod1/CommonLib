@@ -6,9 +6,14 @@ import android.support.annotation.NonNull;
 import java.io.File;
 
 /**
- * @author Andy
- * @date 2019/5/7 9:59
- * Desc: 异步压缩
+ * CompressTask.java
+ * 异步压缩
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:27
+ * @update gaokang 2019/7/2 16:27
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class CompressTask extends AsyncTask<File,Void,File> {
 

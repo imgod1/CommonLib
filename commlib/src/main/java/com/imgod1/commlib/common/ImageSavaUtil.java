@@ -17,9 +17,14 @@ import com.imgod1.commlib.util.AppUtil;
 import java.io.*;
 
 /**
- * @author Andy
- * @date 2019/4/21 16:21
- * Desc:
+ * ImageSavaUtil.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:34
+ * @update gaokang 2019/7/2 16:34
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class ImageSavaUtil {
 

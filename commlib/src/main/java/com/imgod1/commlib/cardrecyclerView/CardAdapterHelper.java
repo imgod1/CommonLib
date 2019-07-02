@@ -6,9 +6,14 @@ import android.view.ViewGroup;
 import com.imgod1.commlib.util.ScreenUtil;
 
 /**
- * @author Andy
- * @date   2018/8/29 13:10
- * Desc:    adapter中调用onCreateViewHolder, onBindViewHolder
+ * CardAdapterHelper.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:27
+ * @update gaokang 2019/7/2 16:27
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class CardAdapterHelper {
     private int mPagePadding = 15;

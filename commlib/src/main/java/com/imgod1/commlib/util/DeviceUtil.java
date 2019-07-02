@@ -6,10 +6,14 @@ import android.util.DisplayMetrics;
 import java.lang.reflect.Field;
 
 /**
- * @author Andy
- * @date   2019/3/25 15:49
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    手机屏幕设备的相关数据，包括宽、高、密度、dpi、状态栏高度
+ * DeviceUtil.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:50
+ * @update gaokang 2019/7/2 16:50
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class DeviceUtil {
     private Context mContext;

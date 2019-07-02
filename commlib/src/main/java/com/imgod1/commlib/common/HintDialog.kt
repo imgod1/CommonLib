@@ -11,12 +11,15 @@ import android.widget.TextView
 import com.imgod1.commlib.R
 import com.imgod1.commlib.interf.OnDialogClickListener
 import java.util.*
-
 /**
- * @author Andy
- * @date 2018/5/19 15:14
- * @link {http://blog.csdn.net/andy_l1}
- * Desc:    HintDialog.java
+ * .java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:32
+ * @update gaokang 2019/7/2 16:32
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 object HintDialog {
     private var lastTime: Long = 0

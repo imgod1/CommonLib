@@ -2,16 +2,11 @@ package com.imgod1.commlib.net;
 
 
 import android.util.Log;
-
+import com.imgod1.commlib.common.ServerConfig;
 import com.imgod1.commlib.common.XLog;
 import com.imgod1.commlib.user.UserInfoManager;
 import com.imgod1.commlib.util.AppUtil;
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
-import com.imgod1.commlib.common.ServerConfig;
-
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -19,12 +14,19 @@ import okhttp3.Response;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
 
 /**
- * @author Andy
- * @date 2019/3/25 14:15
- * @link {http://blog.csdn.net/andy_l1}
- * Desc:    NetClient.java
+ * NetClient.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:40
+ * @update gaokang 2019/7/2 16:40
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public final class NetClient {
 

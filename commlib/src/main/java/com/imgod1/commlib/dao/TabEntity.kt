@@ -3,9 +3,13 @@ package com.imgod1.commlib.dao
 import com.flyco.tablayout.listener.CustomTabEntity
 
 /**
- * @author Andy
- * @date   2018/11/1 14:16
- * Desc:
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:36
+ * @update gaokang 2019/7/2 16:36
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 class TabEntity : CustomTabEntity {
 

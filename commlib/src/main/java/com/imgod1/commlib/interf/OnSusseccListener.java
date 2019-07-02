@@ -3,9 +3,14 @@ package com.imgod1.commlib.interf;
 import android.graphics.Bitmap;
 
 /**
- * @author Andy
- * @date 2019/1/11 10:05
- * Desc:
+ * OnSusseccListener.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:40
+ * @update gaokang 2019/7/2 16:40
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public interface OnSusseccListener {
     void onSuccess(boolean isSuccess);

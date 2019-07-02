@@ -23,7 +23,7 @@ import com.imgod1.commlib.util.AppUtil;
 import java.lang.ref.WeakReference;
 
 /**
- * @author Andy
+ * @author gaokang
  * @date 2018/6/21 12:04
  * Desc:    Toast封装
  * showShort()

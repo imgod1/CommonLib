@@ -6,9 +6,14 @@ import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
 
 /**
- * @author Andy
- * @date 2019/4/25 19:25
- * Desc:
+ * SuperTextView.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:27
+ * @update gaokang 2019/7/2 16:27
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class SuperTextView extends AppCompatTextView {
     public SuperTextView(Context context) {

@@ -8,10 +8,14 @@ import android.support.v7.widget.helper.ItemTouchHelper;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * @author Andy
- * @date   2018/12/6 9:26
- * @link   {http://blog.csdn.net/andy_l1}
- * Desc:    rv拖拽
+ * RvItemTouchHelpCallback.java
+ *
+ * @author gaokang
+ * @version 1.0 2019/7/2 16:34
+ * @update gaokang 2019/7/2 16:34
+ * @updateDes
+ * @include {@link }
+ * @used {@link }
  */
 public class RvItemTouchHelpCallback extends ItemTouchHelper.Callback {
 
