@@ -5,10 +5,13 @@
         android:orientation="vertical"
         android:fitsSystemWindows="true"
         android:layout_height="match_parent">
-    <include layout="@layout/top_comm_title"/>
+    <com.imgod1.commlib.common.WebViewTopLoading
+            android:id="@+id/mTopProgress"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp2"
+    />
     <FrameLayout
-            android:id="@+id/flayout_main"
+            android:id="@+id/flayout_webview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
-
 </LinearLayout>
