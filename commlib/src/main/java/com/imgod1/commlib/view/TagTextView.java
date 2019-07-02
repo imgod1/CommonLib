@@ -19,8 +19,8 @@ import com.imgod1.commlib.R;
  * TagTextView.java
  *
  * @author gaokang
- * @version 1.0 2019/7/2 16:55
- * @update gaokang 2019/7/2 16:55
+ * @version 1.0 2019/7/2 16:56
+ * @update gaokang 2019/7/2 16:56
  * @updateDes
  * @include {@link }
  * @used {@link }

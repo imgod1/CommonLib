@@ -18,8 +18,8 @@ import com.imgod1.commlib.util.SPUtil;
  * UpdateDialog.java
  *
  * @author gaokang
- * @version 1.0 2019/7/2 16:55
- * @update gaokang 2019/7/2 16:55
+ * @version 1.0 2019/7/2 16:57
+ * @update gaokang 2019/7/2 16:57
  * @updateDes
  * @include {@link }
  * @used {@link }

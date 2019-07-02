@@ -16,8 +16,8 @@ import com.imgod1.commlib.R;
  * RegistSuccessDialog.java
  *
  * @author gaokang
- * @version 1.0 2019/7/2 16:54
- * @update gaokang 2019/7/2 16:54
+ * @version 1.0 2019/7/2 16:56
+ * @update gaokang 2019/7/2 16:56
  * @updateDes
  * @include {@link }
  * @used {@link }
