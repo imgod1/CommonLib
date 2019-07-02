@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.imgod1.commlib.R;
 import com.imgod1.commlib.common.NumberProgressBar;
-import com.imgod1.commlib.util.SPUtil;
+import com.imgod1.commlib.util.SPUtils;
 
 /**
  * UpdateDialog.java
@@ -108,7 +108,7 @@ public class UpdateDialog extends Dialog {
 
             ivExit.setOnClickListener(v -> {
                 dialog.dismiss();
-                SPUtil.put(mContext, "VersionName", verisonCode);
+                SPUtils.getInstance(mContext).put("VersionName", verisonCode);
             });
             tvVersion.setText(title);
             tvUpdate.setOnClickListener(v -> {

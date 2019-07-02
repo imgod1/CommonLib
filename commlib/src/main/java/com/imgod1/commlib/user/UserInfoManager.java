@@ -4,7 +4,7 @@ import android.content.Context;
 import android.text.TextUtils;
 import android.util.Log;
 import com.imgod1.commlib.util.GsonUtil;
-import com.imgod1.commlib.util.SPUtil;
+import com.imgod1.commlib.util.SPUtils;
 
 /**
  * UserInfoManager.java
@@ -24,9 +24,9 @@ public class UserInfoManager {
     public static final String SP_USERINFO = "userInfo";
     public static final String SP_USERID = "userID";
 
-    public static boolean isLoginDisable=false;
+    public static boolean isLoginDisable = false;
     private static UserInfoManager sUserInfoManager = new UserInfoManager();
-    private UserInfo mUserInfo=new UserInfo();
+    private UserInfo mUserInfo = new UserInfo();
 
     private UserInfoManager() {
     }
@@ -34,15 +34,16 @@ public class UserInfoManager {
     public static UserInfoManager getInstance() {
         return sUserInfoManager;
     }
-    public void setInstance(UserInfoManager m){
-        sUserInfoManager=m;
+
+    public void setInstance(UserInfoManager m) {
+        sUserInfoManager = m;
     }
 
     public void initOnApplicationCreate(Context context) {
         mContext = context;
-        mToken = (String) SPUtil.get(mContext, SP_TOKEN, "");
-        String userInfoJson = (String) SPUtil.get(mContext, SP_USERINFO, "");
-        userId= (String) SPUtil.get(mContext,SP_USERID,"");
+        mToken = (String) SPUtils.getInstance(context).getString(SP_TOKEN, "");
+        String userInfoJson = (String) SPUtils.getInstance(context).getString(SP_USERINFO, "");
+        userId = (String) SPUtils.getInstance(context).getString(SP_USERID, "");
         Log.d("UserInfoManager", userInfoJson);
         if (!TextUtils.isEmpty(userInfoJson)) {
             mUserInfo = GsonUtil.parseJson(userInfoJson, UserInfo.class);
@@ -55,7 +56,7 @@ public class UserInfoManager {
 
     public void setUserInfo(UserInfo userInfo) {
         mUserInfo = userInfo;
-        SPUtil.put(mContext, SP_USERINFO, GsonUtil.toJsonStr(userInfo));
+        SPUtils.getInstance(mContext).put(SP_USERINFO, GsonUtil.toJsonStr(userInfo));
         setToken(userInfo.getToken());
         setUserId(userInfo.getShop_key());
     }
@@ -66,7 +67,7 @@ public class UserInfoManager {
 
     public void setToken(String token) {
         mToken = token;
-        SPUtil.put(mContext, SP_TOKEN, token);
+        SPUtils.getInstance(mContext).put(SP_TOKEN, token);
     }
 
 
@@ -76,17 +77,18 @@ public class UserInfoManager {
 
     public void setUserId(String userId) {
         this.userId = userId;
-        SPUtil.put(mContext,SP_USERID,userId);
+        SPUtils.getInstance(mContext).put(SP_USERID, userId);
     }
+
     public void clearData() {
         mToken = "";
         mUserInfo = new UserInfo();
-        SPUtil.remove(mContext, SP_TOKEN);
-        SPUtil.remove(mContext, SP_USERINFO);
-        SPUtil.remove(mContext, SP_USERID);
+        SPUtils.getInstance(mContext).remove(SP_TOKEN);
+        SPUtils.getInstance(mContext).remove(SP_USERINFO);
+        SPUtils.getInstance(mContext).remove(SP_USERID);
     }
-    
-    public boolean isLogin(){
+
+    public boolean isLogin() {
         return !TextUtils.isEmpty(mToken);
     }
 }
