@@ -30,7 +30,7 @@ object ServerConfig {
         if (isDebug) {
             if (isPre) {
                 SERVER_HOST = "https://dev.qingym.cn/wxmall/"
-            }else{
+            } else {
                 //测试版
                 SERVER_HOST = "http://cs1.qingym.cn:81/wxmall/"
             }

@@ -2,7 +2,6 @@ package com.imgod1.commlib.net;
 
 
 import android.util.Log;
-import com.imgod1.commlib.common.ServerConfig;
 import com.imgod1.commlib.common.XLog;
 import com.imgod1.commlib.user.UserInfoManager;
 import com.imgod1.commlib.util.AppUtil;
@@ -33,24 +32,11 @@ public final class NetClient {
     private static final int TIME_OUT = 10 * 1000;
 
 
-    private static final Retrofit mRetrofit;
-    /**
-     * 新域名替换
-     */
-    private static final Retrofit newRetrofit;
+    private static Retrofit mRetrofit;
 
-    static {
+    public static void initRetrofit(String baseUrl) {
         mRetrofit = new Retrofit.Builder()
-                .baseUrl(ServerConfig.SERVER_HOST)
-                .client(getHttpClient())
-                .addConverterFactory(MyGsonConverterFactory.create())
-                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-                .build();
-    }
-
-    static {
-        newRetrofit = new Retrofit.Builder()
-                .baseUrl(ServerConfig.SERVER_NEW_HOST)
+                .baseUrl(baseUrl)
                 .client(getHttpClient())
                 .addConverterFactory(MyGsonConverterFactory.create())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
@@ -63,10 +49,6 @@ public final class NetClient {
 
     public static <Api> Api getInstance(Class<Api> clazz) {
         return mRetrofit.create(clazz);
-    }
-
-    public static <Api> Api getNewInstance(Class<Api> clazz) {
-        return newRetrofit.create(clazz);
     }
 
     private static OkHttpClient getHttpClient() {
@@ -89,14 +71,12 @@ public final class NetClient {
                     }
                 });
 
-        if (ServerConfig.isDebug) {
-            builder.addInterceptor(new HttpLoggingInterceptor(new HttpLoggingInterceptor.Logger() {
-                @Override
-                public void log(String message) {
-                    XLog.e("otto", message);
-                }
-            }).setLevel(HttpLoggingInterceptor.Level.BODY));
-        }
+        builder.addInterceptor(new HttpLoggingInterceptor(new HttpLoggingInterceptor.Logger() {
+            @Override
+            public void log(String message) {
+                XLog.e("otto", message);
+            }
+        }).setLevel(HttpLoggingInterceptor.Level.BODY));
         return builder.build();
     }
 
