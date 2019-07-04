@@ -53,10 +53,11 @@ task clean(type: Delete) {
  https://www.cnblogs.com/ccddy/p/5479854.html
  6.自己项目的build.gradle文件里面添加默认常量配置
    manifestPlaceholders = [
-                MTA_APPKEY : "",
-                MTA_CHANNEL: ""
+                MTA_APPKEY : "MTA_APPKEY",
+                MTA_CHANNEL: "MTA_CHANNEL"
         ]
-     compileOptions {
+
+        compileOptions {
 
             sourceCompatibility JavaVersion.VERSION_1_8
 
