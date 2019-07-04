@@ -56,6 +56,12 @@ task clean(type: Delete) {
                 MTA_APPKEY : "",
                 MTA_CHANNEL: ""
         ]
+     compileOptions {
 
+            sourceCompatibility JavaVersion.VERSION_1_8
+
+            targetCompatibility JavaVersion.VERSION_1_8
+
+        }
  7.接下来问题就不大了 至于网络请求 mvp之类的 按照demo里面写的 来写就ok
  
