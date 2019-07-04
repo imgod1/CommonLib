@@ -51,5 +51,11 @@ task clean(type: Delete) {
 
 5.在自己的项目使用分包 因为commonlib依赖的东西挺多.直接过65k问题
  https://www.cnblogs.com/ccddy/p/5479854.html
- 6.接下来问题就不大了 至于网络请求 mvp之类的 按照demo里面写的 来写就ok
+ 6.自己项目的build.gradle文件里面添加默认常量配置
+   manifestPlaceholders = [
+                MTA_APPKEY : "",
+                MTA_CHANNEL: ""
+        ]
+
+ 7.接下来问题就不大了 至于网络请求 mvp之类的 按照demo里面写的 来写就ok
  
